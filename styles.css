@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*height: 100vh;*/
+  background-color: black;
+  background-image: url("img.jpg");
+  margin: 0;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  display: inline-block;
+  margin-top: 200px;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+#time {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+}
+
+#laps {
+  margin-top: 20px;
+  text-align: left;
+}
